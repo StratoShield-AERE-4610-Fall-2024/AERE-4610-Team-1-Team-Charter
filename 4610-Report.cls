@@ -86,7 +86,7 @@
 \setlength\bibitemsep{1.5\itemsep} % Adjust the space between references
 \setlength\bibhang{0pt} % Remove indentation
 \renewcommand*{\bibfont}{\small} % Change references font size
-\addbibresource{Bibliography/Bibliography.bib} % Reference document
+% \addbibresource{Bibliography/Bibliography.bib} % Reference document
 
 % Highlight both Author and Year in the citations
 \ExecuteBibliographyOptions{maxcitenames=1}
@@ -149,6 +149,7 @@
 \NewDocumentCommand{\fourthauthor}{m}{\newcommand{\fourthauthorname}{#1}}
 \NewDocumentCommand{\fifthauthor}{m}{\newcommand{\fifthauthorname}{#1}}
 \NewDocumentCommand{\sixthauthor}{m}{\newcommand{\sixthauthorname}{#1}}
+\NewDocumentCommand{\seventhauthor}{m}{\newcommand{\seventhauthorname}{#1}}
 \NewDocumentCommand{\supervisor}{m}{\newcommand{\supname}{#1}}
 \NewDocumentCommand{\supervisormail}{m}{\newcommand{\supmail}{#1}}
 \NewDocumentCommand{\subtitle}{m}{\newcommand{\subname}{#1}}
